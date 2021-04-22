@@ -11,7 +11,7 @@ if (( $EUID != 0 ))
 	
 	function opcion(){
 	
-		echo -n 'Vols continuar? (S - N) '
+		echo -n 'Quieres continuar? (S - N) '
 		read op
 		
 		if [[ $op == "S" ]]
